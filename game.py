@@ -32,7 +32,7 @@ win_height = 500
 background = transform.scale(image.load("background.jpg"), (win_width, win_height))
 window = display.set_mode((win_width, win_height))
 
-game = True
+game = True 
 finish = False
 clock = time.Clock()
 FPS = 60
